@@ -3,10 +3,9 @@ to a configured couchbase db bucket.
 
 PREREQUISITES
 -Install Couchbase.http://www.couchbase.com/download
-If you are installing it on windows 7,please refer to my collected experience,since it is a bit tricky: http://selmantayyar.wordpress.com/2013/11/25/installing-couchenode-on-windows-7/
 
 CONFIGURATION
--Edit couchdbconf.properties file accordingly to point to your couchbase instance and bucket.
+-Edit couchdbconf.properties file accordingly to point to your couchbase instance and bucket.Leave password field empty unless you have one.
 
 RUNNING
 -run java -jar GuardianAPICLientClient.jar  on command line.
