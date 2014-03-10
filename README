@@ -1,12 +1,15 @@
 This is a standalone java application connecting to The Guardian Open Data platform.It is fetching data in JSON format and persisting it to a configured couchbase db bucket.
 
 ##PREREQUISITES
--Install Couchbase.http://www.couchbase.com/download
+
+- Install Couchbase.http://www.couchbase.com/download
 
 ##CONFIGURATION
--Edit couchdbconf.properties file accordingly to point to your couchbase instance and bucket.Leave password field empty unless you have one.
+
+- Edit couchdbconf.properties file accordingly to point to your couchbase instance and bucket.Leave password field empty unless you have one.
 
 ##RUNNING
--run java -jar GuardianAPICLientClient.jar  on command line.
+
+- run java -jar GuardianAPICLientClient.jar  on command line.
 
 This will bring and store 1000 articles starting from 2012 to today from Guardian Open Platform.If you want to change date and volume,code is annotated adequately with required information.You can change and test very quickly.
