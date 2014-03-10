@@ -9,4 +9,4 @@ CONFIGURATION
 RUNNING
 -run java -jar GuardianAPICLientClient.jar  on command line.
 
-This will bring 1000 articles starting from 2012 to today from Guardian Open Platform.If you want to change date and volume,code is annotated adequately with required information.You can change and test very quickly.
+This will bring and store 1000 articles starting from 2012 to today from Guardian Open Platform.If you want to change date and volume,code is annotated adequately with required information.You can change and test very quickly.
