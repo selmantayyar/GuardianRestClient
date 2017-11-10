@@ -6,7 +6,7 @@
 
     <groupId>com.guardian.client</groupId>
     <artifactId>GuardianRestClient</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-core -->
