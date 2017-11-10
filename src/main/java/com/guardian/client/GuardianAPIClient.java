@@ -41,7 +41,7 @@ public class GuardianAPIClient {
 	public static void main(String[] args) {
 		try {
 			GuardianAPIClient apiClient=new GuardianAPIClient();
-			apiClient.retrieveDBProps();   
+			//apiClient.retrieveDBProps();
 			
 			apiClient.getNewsAndInsertIntoCouchDB();
 	 
